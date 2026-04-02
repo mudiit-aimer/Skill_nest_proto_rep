@@ -82,9 +82,6 @@ export default function Landing() {
           <div className="hero__grid" />
         </div>
         <div className="hero__content container">
-          <div className="hero__eyebrow anim-fade-up">
-            <span className="t-label">not everyone gets in.</span>
-          </div>
           <h1 className="hero__headline anim-fade-up anim-delay-1">
             <span className="t-hero">knowledge</span><br />
             <span className="t-hero-italic">worth having.</span>
