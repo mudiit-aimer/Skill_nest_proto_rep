@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="footer__brand">
             <div className="footer__logo">skillnest<span>.</span></div>
             <p className="t-body">
-              a members-only learning club for the ambitious. not everyone gets in — but the ones who do, ascend fast.
+              a members-only learning club for the ambitious. not everyone gets in, but the ones who do ascend fast.
             </p>
             <div className="footer__tagline">
               <span className="t-label">not everyone gets it.</span>

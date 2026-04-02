@@ -9,7 +9,7 @@ export default function About() {
       <div className="static-hero">
         <div className="container">
           <h1 className="static-title">about skillnest</h1>
-          <p className="static-subtitle">we believe the best learners deserve better — better teachers, better structure, better outcomes.</p>
+          <p className="static-subtitle">we believe the best learners deserve better, better teachers, better structure, better outcomes.</p>
         </div>
       </div>
 
@@ -17,7 +17,7 @@ export default function About() {
         <section className="static-section">
           <h2>Our Mission</h2>
           <p>
-            Skillnest is built on selectivity. Every course is hand-picked. Every instructor is vetted. Not everyone makes it in — but the ones who do, ascend fast.
+            Skillnest is built on selectivity. Every course is hand-picked. Every instructor is vetted. Not everyone makes it in, but the ones who do ascend fast.
           </p>
           <p>
             We're not trying to be everything to everyone. We're building a members-only learning club for the ambitious, where quality trumps quantity and outcomes matter more than vanity metrics.

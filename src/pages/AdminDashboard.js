@@ -288,7 +288,7 @@ export default function AdminDashboard() {
                         <td>{c.price === 0 ? <span className="admin-free">free</span> : `₹${c.price.toLocaleString()}`}</td>
                         <td className="admin-table__dim">{c.enrolledCount || 0}</td>
                         <td>
-                          <span className="admin-rating">★ {c.rating || '—'}</span>
+                          <span className="admin-rating">★ {c.rating || '-'}</span>
                         </td>
                         <td>
                           <div className="admin-actions">

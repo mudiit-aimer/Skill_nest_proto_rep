@@ -17,7 +17,7 @@ export default function NotFound() {
           <em>finds this page.</em>
         </h1>
         <p className="t-body anim-fade-up anim-delay-3" style={{ maxWidth: 380, margin: '0 auto' }}>
-          the page you're looking for doesn't exist — or was never meant to be found. some things are like that.
+          the page you're looking for doesn't exist, or was never meant to be found. some things are like that.
         </p>
         <div className="nf-actions anim-fade-up anim-delay-4">
           <Link to="/" className="btn btn-cream btn-lg">go home</Link>

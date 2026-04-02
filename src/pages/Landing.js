@@ -129,11 +129,11 @@ export default function Landing() {
             <div className="statement__right">
               <p className="t-display">
                 we believe the best learners<br />
-                <em>deserve better</em> — better teachers,<br />
+                <em>deserve better</em>, better teachers,<br />
                 better structure, better outcomes.
               </p>
               <p className="t-body" style={{ marginTop: 24 }}>
-                skillnest is built on selectivity. every course is hand-picked. every instructor is vetted. not everyone makes it in — but the ones who do, ascend fast.
+                skillnest is built on selectivity. every course is hand-picked. every instructor is vetted. not everyone makes it in, but the ones who do ascend fast.
               </p>
             </div>
           </div>
@@ -248,7 +248,7 @@ export default function Landing() {
               like all good things, a skillnest membership is earned. start with one course and discover what you're capable of.
             </p>
             <div style={{ display: 'flex', gap: 16, marginTop: 36, flexWrap: 'wrap' }}>
-              <Link to="/auth" className="btn btn-gold btn-lg">get started — it's free</Link>
+              <Link to="/auth" className="btn btn-gold btn-lg">get started. it's free</Link>
               <Link to="/courses" className="btn btn-ghost btn-lg">browse courses</Link>
             </div>
           </div>
