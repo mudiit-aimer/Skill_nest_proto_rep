@@ -1,0 +1,108 @@
+.about-page { }
+
+.static-hero {
+  background: linear-gradient(135deg, rgba(193, 144, 84, 0.1) 0%, rgba(201, 168, 76, 0.05) 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 80px 0;
+  margin-bottom: 80px;
+}
+
+.static-hero h1 { color: var(--cream); margin-bottom: 12px; }
+.static-hero .static-subtitle { color: var(--cream3); max-width: 500px; }
+
+.static-body { max-width: 800px; }
+
+.static-section {
+  margin-bottom: 80px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid var(--border);
+}
+
+.static-section:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 120px;
+}
+
+.static-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--cream);
+  margin-bottom: 24px;
+  letter-spacing: -0.01em;
+}
+
+.static-section p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--cream2);
+  margin-bottom: 16px;
+}
+
+.static-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.static-card {
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-align: center;
+  transition: all var(--transition);
+}
+
+.static-card:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: var(--gold);
+}
+
+.static-card__icon {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.static-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--cream);
+  margin-bottom: 12px;
+}
+
+.static-card p {
+  font-size: 13px;
+  color: var(--cream3);
+  margin: 0;
+}
+
+.static-section-cta {
+  text-align: center;
+  padding: 80px;
+  background: linear-gradient(135deg, rgba(193, 144, 84, 0.1) 0%, rgba(201, 168, 76, 0.05) 100%);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin: 120px 0;
+}
+
+.static-section-cta h2 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.static-section-cta p {
+  font-size: 16px;
+  margin-bottom: 32px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .static-hero { padding: 60px 0; margin-bottom: 60px; }
+  .static-section { margin-bottom: 60px; padding-bottom: 60px; }
+  .static-section h2 { font-size: 24px; }
+  .static-section-cta { padding: 60px 30px; margin: 80px 0; }
+}

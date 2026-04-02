@@ -1,0 +1,35 @@
+.security-page { }
+
+.static-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 16px 0 24px 0;
+}
+
+.static-list li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--cream2);
+}
+
+.static-list li:before {
+  content: '◆';
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+  font-size: 8px;
+  top: 6px;
+}
+
+.static-section a {
+  color: var(--gold);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.static-section a:hover {
+  color: var(--cream);
+}
