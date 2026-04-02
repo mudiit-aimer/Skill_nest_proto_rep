@@ -8,7 +8,7 @@ export default function Terms() {
       <div className="static-hero">
         <div className="container">
           <h1 className="static-title">terms of service</h1>
-          <p className="static-subtitle">last updated: april 2024</p>
+          <p className="static-subtitle">last updated: april 2026</p>
         </div>
       </div>
 
